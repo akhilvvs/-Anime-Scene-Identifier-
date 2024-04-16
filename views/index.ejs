@@ -1,0 +1,82 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Anime Search</title>
+</head>
+<body>
+  <style>
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--font-size-base);
+  background-color: #FAF5EE;
+  background-image: url("/images/background.png");
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Keep the background image fixed in place */
+  margin: 0;
+}
+
+
+.heading{
+  color: #FAF5EE;
+  text-align: center;
+  margin: 100px auto 50px ;
+  font-weight: 600;
+ }
+
+form{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 80px;
+  background: #434989;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+form input{
+  flex:1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 18px ;
+  padding: 0 30px ;
+}
+
+form button{
+  padding: 0 40px;
+  height: 100%;
+  background: #ff3929;
+  color: #fff;
+  font-size:18px ;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius:8px;
+  cursor: pointer;
+}
+
+::placeholder{
+  color: #fff;
+  font-size: 18px;
+}
+.video{
+    width:"320" ;
+    height:"240"
+}
+  </style>
+  <h1 class="heading">Anime Scene Identifier</h1>
+  <form action="/search" method="post">
+    <input type="text" name="imageUrl" placeholder="Paste image url here ..." required>
+    <button><input type="submit" value="Search"></button>
+  </form>
+</body>
+</html>

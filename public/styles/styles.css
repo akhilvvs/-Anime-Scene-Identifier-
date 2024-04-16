@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: var(--font-size-base);
+  background-color: #d3d3d3;
+  margin: 0;
+}
+
+.navbar {
+  padding-top: 0.5rem; /* Reduce top padding */
+  padding-bottom: 0.5rem; /* Reduce bottom padding */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust font size */
+}
+
+.nav-link {
+  font-size: 1rem; /* Adjust font size */
+}
+
+.main-container{
+  max-width: 982px;
+  margin: 50px auto auto;
+  padding: 0;
+}
+
+.image-container {
+  width: 730px; /* Set the width of the container */
+  height: 400px; /* Set the height of the container */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.image-container img {
+  width: 100%; /* Ensure the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.footer {
+  margin: 4rem;
+  text-align: center;
+}
+
+.about{
+  margin:5px auto;
+}
+.about_info{
+  margin-top: 50px;
+}
+.objectives_info{
+  margin-top: 20px;
+}
+
+.contact{
+  margin: 10px auto;
+}
