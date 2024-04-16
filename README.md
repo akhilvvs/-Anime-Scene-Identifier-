@@ -1,11 +1,25 @@
 # -Anime-Scene-Identifier-
-This innovative project allows you to delve deeper into the world of anime with just a single image. Simply upload an image from an anime scene, and our advanced technology will identify the anime it originates from. 
-
+Anime Scene Identifier is a web application that allows users to search for anime scenes by uploading an image or providing a URL to the image. The application uses the trace.moe API to perform reverse image search and retrieve information about the anime scene.
 
 ![image](https://github.com/akhilvvs/-Anime-Scene-Identifier-/assets/128318355/3735c57d-102b-4709-958c-5223b2e5f860)
 
+![image](https://github.com/akhilvvs/-Anime-Scene-Identifier-/assets/128318355/f117b931-d17b-461c-8ec5-ff01742d82a1)
 
-# Instructions
+
+# Features
+**Image Upload**: Users can upload an image or provide a URL to search for similar anime scenes.
+**Reverse Image Search**: The application uses the trace.moe API to perform reverse image search and retrieve anime scene information.
+**Search Results**: Displays search results including filename, episode, time lapse, and similarity percentage.
+**Responsive Design**: The application is designed to work seamlessly on desktop and mobile devices.
+
+# Technologies Used
+**Frontend**: HTML, CSS, JavaScript, Bootstrap
+**Backend**: Node.js, Express.js
+**API**: trace.moe API
+
+
+# Instructions :
+To run the Anime Scene Search locally, follow these steps:
 1. In the terminal use this command to clone it
    git clone - (https://github.com/akhilvvs/-Anime-Scene-Identifier-.git)
 2. Then cd into the folder
@@ -23,3 +37,12 @@ This innovative project allows you to delve deeper into the world of anime with 
 2. Gain practical experience using Express/Node.js for server-side programming.
 3. Enhance understanding of client-server communication using Axios.
 4. Demonstrate ability to manipulate, present, and work with data retrieved from APIs.
+
+# Acknowledgements
+**Bootstrap** - Frontend framework for styling.
+**trace.moe API** - Anime scene search API.
+
+# Contact
+For questions or support, please contact akhilesh90123@gmail.com.
+
+
